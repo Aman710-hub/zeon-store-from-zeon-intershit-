@@ -1,0 +1,80 @@
+.accordion {
+  width: 1168px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 72px;
+  /* background-color: blue; */
+}
+
+.accordion img {
+  height: 500px;
+  width: 500px;
+  /* margin-righ
+  t: 20px; */
+}
+
+.item {
+  margin-bottom: 12px;
+  /* padding: 16px; */
+}
+
+.QAwraper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  /* padding: 16px; */
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  width: 644px;
+  height: 52px;
+  align-items: center;
+  background: #ffffff;
+  cursor: pointer;
+  padding: 16px;
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+  text-align: left;
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 14px;
+  line-height: 160%;
+  width: 644px;
+  background: #ffffff;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.content p {
+  color: #354455;
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 14px;
+  line-height: 160%;
+  padding: 16px;
+}
+
+.content h3 {
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #354455;
+  /* padding: 16px 16px 0 16px; */
+}
+
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}

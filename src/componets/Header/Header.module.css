@@ -1,0 +1,173 @@
+.wraper {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.05);  */
+}
+
+.headerMain {
+  display: grid;
+  grid-template-rows: 65px 88px;
+  font-family: "Montserrat", sans-serif;
+  /* padding: 0 12%; */
+  margin: 0 auto;
+  /* width: 1168px; */
+  max-width: 100%;
+  /* margin-bottom: 8px; */
+  /* box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.05); */
+}
+
+.headerWraper {
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.logoWraper {
+  /* box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.05);s */
+  height: 89px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  max-width: 1168px;
+  margin: 0 auto;
+  height: 100%;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.05);
+
+  /* background-color: aquamarine; */
+}
+
+.headerSection {
+  display: flex;
+  /* width: 1110px; */
+}
+
+.headerSection span {
+  padding-right: 10px;
+}
+
+.headerItem {
+  padding-right: 24px;
+}
+
+.header a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #393939;
+}
+
+.header span {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #979797;
+}
+
+.header p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+/* logo section */
+
+.logoSection {
+  display: grid;
+  grid-template-columns: 162px 1fr 276px;
+  align-items: center;
+  background-color: #fff;
+  max-width: 1168px;
+  height: 88px;
+  margin: 0 auto;
+  /* box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.05); */
+
+  /* margin-bottom: 20px; */
+}
+
+/* .logo {
+} */
+
+.searchBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 662px;
+  margin-left: 34px;
+  margin-right: 35px;
+  /* width: 6.62%; */
+}
+
+.basketsAndFaverit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* justify-content: space-between; */
+}
+
+/* /////////////////////////// */
+
+.faverit {
+  display: flex;
+  border-right: 1px solid #d3d3d3;
+  /* background-color: blueviolet; */
+  padding-right: 20px;
+}
+
+.basket {
+  display: flex;
+  /* background-color: #979797; */
+  padding-left: 20px;
+  /* margin-left: 21px; */
+}
+
+.searchBox input {
+  width: 100%;
+  height: 44px;
+  border: 1px solid #e0e0e0;
+  background: #f8f8f8;
+  padding-left: 20px;
+}
+::placeholder {
+  color: #858f9b;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /* padding-left: 20px; */
+}
+
+.searchIcon {
+  position: absolute;
+  right: 12px;
+}
+.basketsAndFaverit p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.basketsAndFaverit a {
+  color: #393939;
+}
+
+.faverit p {
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.basket p {
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.icons {
+  width: 24px;
+  height: 24px;
+}

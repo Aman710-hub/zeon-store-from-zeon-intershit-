@@ -1,0 +1,87 @@
+.wraper {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 286px);
+  max-width: 1168px;
+  justify-content: space-around;
+  gap: 8px;
+  margin-bottom: 16px;
+  margin-top: 30px;
+}
+
+.cardsWraper {
+  max-width: 286px;
+  margin: 0 auto;
+}
+
+.cardsWraper img {
+  width: 100%;
+  display: block;
+  /* height: 100%; */
+  object-fit: cover;
+}
+
+.cardBtn {
+  display: flex;
+  /* position: relative; */
+  justify-content: center;
+  align-items: center;
+  /* width: 286px; */
+  min-height: 44px;
+  font-size: large;
+  background-color: black;
+}
+
+.cardBtn a {
+  color: #fff;
+  margin-right: 15px;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* .cardBtn a:hover {
+  color: black;
+} */
+
+.cardBtn:hover a {
+  color: black;
+}
+.cardBtn:hover .icons {
+  color: black;
+}
+.cardBtn:hover {
+  background-color: #fff;
+  color: red;
+}
+
+.icons {
+  /* position: absolute; */
+  color: #fff;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.container > a {
+  /* padding: 0.5rem 2rem; */
+  display: inline-block;
+  padding-top: 8px;
+  width: 107px;
+  height: 32px;
+  color: #fff;
+  background-color: black;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.container > a:hover {
+  background-color: #fff;
+  color: black;
+  border: 2px black solid;
+}
